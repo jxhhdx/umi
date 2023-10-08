@@ -9,4 +9,5 @@ export default defineConfig({
     input: 'src/client',
     output: 'client/client',
   },
+  sourcemap: true,
 });
