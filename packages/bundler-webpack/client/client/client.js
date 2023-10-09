@@ -288,3 +288,4 @@ function _handleMessage() {
   }));
   return _handleMessage.apply(this, arguments);
 }
+//# sourceMappingURL=client.js.map

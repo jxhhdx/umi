@@ -18,3 +18,4 @@ export function compose(_ref) {
 export function isPromiseLike(obj) {
   return !!obj && _typeof(obj) === 'object' && typeof obj.then === 'function';
 }
+//# sourceMappingURL=utils.js.map

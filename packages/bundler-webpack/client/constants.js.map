@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../src/constants.ts"],
+  "sourcesContent": ["export const DEFAULT_DEVTOOL = 'cheap-module-source-map';\nexport const DEFAULT_OUTPUT_PATH = 'dist';\nexport const MFSU_NAME = 'MFSU';\n\nexport enum MESSAGE_TYPE {\n  ok = 'ok',\n  warnings = 'warnings',\n  errors = 'errors',\n  hash = 'hash',\n  stillOk = 'still-ok',\n  invalid = 'invalid',\n}\n\nexport const DEFAULT_BROWSER_TARGETS = {\n  chrome: 80,\n};\n\nexport const DEFAULT_ESBUILD_TARGET_KEYS = [\n  'chrome',\n  'firefox',\n  'edge',\n  'safari',\n];\n"],
+  "mappings": ";AAAO,IAAM,kBAAkB;AACxB,IAAM,sBAAsB;AAC5B,IAAM,YAAY;AAElB,IAAK,eAAL,kBAAKA,kBAAL;AACL,EAAAA,cAAA,QAAK;AACL,EAAAA,cAAA,cAAW;AACX,EAAAA,cAAA,YAAS;AACT,EAAAA,cAAA,UAAO;AACP,EAAAA,cAAA,aAAU;AACV,EAAAA,cAAA,aAAU;AANA,SAAAA;AAAA,GAAA;AASL,IAAM,0BAA0B;AAAA,EACrC,QAAQ;AACV;AAEO,IAAM,8BAA8B;AAAA,EACzC;AAAA,EACA;AAAA,EACA;AAAA,EACA;AACF;",
+  "names": ["MESSAGE_TYPE"]
+}
