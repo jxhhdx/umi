@@ -9,7 +9,8 @@
       "request": "launch",
       "name": "Launch Program",
       "skipFiles": ["<node_internals>/**"],
-      "program": "${workspaceFolder}/packages/umi/bin/umi.js"
+      "program": "${workspaceFolder}/packages/umi/bin/umi.js",
+      "cwd": "${workspaceFolder}/examples/vue-demo"
     }
   ]
 }

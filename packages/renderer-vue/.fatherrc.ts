@@ -6,4 +6,5 @@ export default defineConfig({
   esm: {
     output: 'dist',
   },
+  sourcemap: true,
 });
