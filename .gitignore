@@ -45,7 +45,7 @@
 /coverage
 /packages/*/coverage
 /examples/*/coverage
-/.vscode
+# /.vscode
 /.idea
 /.pnpm-*.log
 /.github_token
