@@ -1,4 +1,5 @@
 import { defineConfig } from 'father';
+import common from '../../.fatherrc.common.ts';
 
 export default defineConfig({
   extends: '../../.fatherrc.base.ts',
@@ -9,4 +10,5 @@ export default defineConfig({
     input: 'src/client',
     output: 'client/client',
   },
+  ...common,
 });

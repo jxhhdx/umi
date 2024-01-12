@@ -10,7 +10,8 @@
     "skipLibCheck": true,
     "target": "es2019",
     "jsx": "react",
-    "lib": ["dom", "dom.iterable", "esnext"]
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "sourceMap": true
   },
   "exclude": [
     "**/node_modules",

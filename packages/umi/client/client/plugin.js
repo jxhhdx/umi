@@ -216,3 +216,4 @@ export var PluginManager = /*#__PURE__*/function () {
 
 // plugins meta info (in tmp file)
 // hooks api: usePlugin
+//# sourceMappingURL=plugin.js.map
